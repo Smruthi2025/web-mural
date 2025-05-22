@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SRISHTI - Home</title>
+    <style>
+   
+{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+  }
+   body {
+  font-family: 'Baloo 2', cursive;
+   color: #fff;
+  background-color: #0a0a0a;
+    }
+     header {
+            background-color: #111;
+            padding: 1rem 2rem;
+  }
+   .header-flex {
+     display: flex;
+     align-items: center;
+    justify-content: space-between;
+  }
+  .logo {
+    display: flex;
+    align-items: center;
+    }
+  .logo img {
+    height: 50px;
+   margin-right: 12px;
+   }
+        .logo h1 {
+            font-size: 1.8rem;
+            color: #fff8dc;
+            letter-spacing: 1px;
+  }
+  nav ul {
+  display: flex;
+  gap: 24px;
+  list-style: none;
+   }
+       nav a {
+        text-decoration: none;
+        color: #fff;
+       font-weight: 500;
+        transition: color 0.3s ease;
+        }
+        nav a.active,
+        nav a:hover {
+            color: #fcb045;
+        }
+
+        /* Hero Section */
+        .hero {
+            position: relative;
+            height: 90vh;
+            background: url('A.jpg') no-repeat center center/cover;
+   }
+    .overlay {
+    position: absolute;
+       top: 0;
+     left: 0;
+      width: 100%;
+       height: 100%;
+     background: rgba(10, 10, 10, 0.7);
+      display: flex;
+     align-items: center;
+        justify-content: center;
+        }
+        .hero-content {
+            text-align: center;
+            max-width: 600px;
+            padding: 0 1rem;
+        }
+        .hero-content h2 {
+            font-size: 3rem;
+          color: #fcb045;
+            margin-bottom: 1rem;
+        }
+        .hero-content p {
+            font-size: 1.1rem;
+          color: #eee;
+          line-height: 1.6;
+            margin-bottom: 2rem;
+        }
+        .btn {
+            display: inline-block;
+          background-color: #fcb045;
+         color: #111;
+            padding: 0.75rem 1.5rem;
+          border-radius: 30px;
+          text-decoration: none;
+           font-weight: bold;
+            transition: background 0.3s ease;
+        }
+        .btn:hover {
+            background-color: #ffcd6b;
+        }
+
+        
+        footer {
+            background-color: #111;
+            text-align: center;
+            padding: 1rem;
+            font-size: 0.9rem;
+            color: #aaa;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+  <div class="header-flex">
+  <div class="logo">
+ <img src="logo1.jpeg" alt="SRISHTI Logo">
+   <h1>SRISHTI</h1>
+    </div>
+      <nav>
+        <ul>
+     <li><a href="index.html" class="active">Home</a></li>
+     <li><a href="about.html">About Me</a></li>
+   <li><a href="creations.html">Creations</a></li>
+ <li><a href="contact.html">Contact </a></li>
+    </ul>
+   </nav>
+</div>
+</header>
+
+<section class="hero">
+    <div class="overlay">
+   <div class="hero-content">
+    <h2>Where Art Becomes Soulful Creation</h2>
+     <p>
+                Welcome to SRISHTI, a space where timeless tradition meets personal expression. This page is dedicated to my original Kerala mural paintings, hand-drawn with intricate detail and deep-rooted cultural symbolism. Inspired by the classical art forms of Kerala, each piece is a reflection of stories, emotions, and a love for vibrant, soulful visuals.
+
+Every artwork here is made with care — from divine depictions to personalized portraits — blending ancient techniques with a touch of my own artistic journey.
+            </p>
+            <a href="creations.html" class="btn">Explore Gallery</a>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2025 SRISHTI. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
